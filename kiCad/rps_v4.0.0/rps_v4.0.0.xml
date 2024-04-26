@@ -1,0 +1,1367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/chargen/badge_2024/kiCad/rps_v4.0.0/rps_v4.0.0.kicad_sch</source>
+    <date>Sun 14 Jan 2024 09:23:05 AM PST</date>
+    <tool>Eeschema 7.0.10-7.0.10~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>BSides Badge San Diego 2024</title>
+        <company>Somerset Recon</company>
+        <rev>rps_v4.0.0</rev>
+        <date>2023-12-12</date>
+        <source>rps_v4.0.0.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/S14S_DISPLAY/" tstamps="/0288087e-9b7d-48dc-b2fd-ed719f0d17a1/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>LED_Display.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>2460</value>
+      <footprint>rps_v4.0_footprint_library:BatteryHolder_Keystone_2460_1xAANO_HOLES</footprint>
+      <datasheet>https://www.keyelco.com/userAssets/file/M65p28.pdf</datasheet>
+      <fields>
+        <field name="Description">Battery Holder for the AA batteries to power the board.</field>
+        <field name="MANUFACTURER">Keystone Electronics</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">13.89mm</field>
+        <field name="Price">.70</field>
+        <field name="Purchase-URL">https://www.digikey.com/en/products/detail/keystone-electronics/2460/280629</field>
+        <field name="SnapEDA_Link">https://www.digikey.com/en/models/280629</field>
+      </fields>
+      <libsource lib="rps_v4.0.0_symbols_library" part="2460_AA_Battery_Holder" description="Multiple-cell battery"/>
+      <property name="Price" value=".70"/>
+      <property name="Purchase-URL" value="https://www.digikey.com/en/products/detail/keystone-electronics/2460/280629"/>
+      <property name="SnapEDA_Link" value="https://www.digikey.com/en/models/280629"/>
+      <property name="Description" value="Battery Holder for the AA batteries to power the board."/>
+      <property name="MANUFACTURER" value="Keystone Electronics"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="13.89mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rps_v4.0.0.kicad_sch"/>
+      <property name="ki_description" value="Multiple-cell battery"/>
+      <property name="ki_keywords" value="batt voltage-source cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dcab4238-a49b-4435-a9f4-63a887fd6bc7</tstamps>
+    </comp>
+    <comp ref="BT2">
+      <value>2460</value>
+      <footprint>rps_v4.0_footprint_library:BatteryHolder_Keystone_2460_1xAANO_HOLES</footprint>
+      <datasheet>https://www.keyelco.com/userAssets/file/M65p28.pdf</datasheet>
+      <fields>
+        <field name="Description">Battery Holder for the AA batteries to power the board.</field>
+        <field name="MANUFACTURER">Keystone Electronics</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">13.89mm</field>
+        <field name="Price">.70</field>
+        <field name="Purchase-URL">https://www.digikey.com/en/products/detail/keystone-electronics/2460/280629</field>
+        <field name="SnapEDA_Link">https://www.digikey.com/en/models/280629</field>
+      </fields>
+      <libsource lib="rps_v4.0.0_symbols_library" part="2460_AA_Battery_Holder" description="Multiple-cell battery"/>
+      <property name="Price" value=".70"/>
+      <property name="Purchase-URL" value="https://www.digikey.com/en/products/detail/keystone-electronics/2460/280629"/>
+      <property name="SnapEDA_Link" value="https://www.digikey.com/en/models/280629"/>
+      <property name="Description" value="Battery Holder for the AA batteries to power the board."/>
+      <property name="MANUFACTURER" value="Keystone Electronics"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="13.89mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rps_v4.0.0.kicad_sch"/>
+      <property name="ki_description" value="Multiple-cell battery"/>
+      <property name="ki_keywords" value="batt voltage-source cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a73c6443-ea05-41f3-baac-09ec260a5612</tstamps>
+    </comp>
+    <comp ref="BT3">
+      <value>2460</value>
+      <footprint>rps_v4.0_footprint_library:BatteryHolder_Keystone_2460_1xAANO_HOLES</footprint>
+      <datasheet>https://www.keyelco.com/userAssets/file/M65p28.pdf</datasheet>
+      <fields>
+        <field name="Description">Battery Holder for the AA batteries to power the board.</field>
+        <field name="MANUFACTURER">Keystone Electronics</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">13.89mm</field>
+        <field name="Price">.70</field>
+        <field name="Purchase-URL">https://www.digikey.com/en/products/detail/keystone-electronics/2460/280629</field>
+        <field name="SnapEDA_Link">https://www.digikey.com/en/models/280629</field>
+      </fields>
+      <libsource lib="rps_v4.0.0_symbols_library" part="2460_AA_Battery_Holder" description="Multiple-cell battery"/>
+      <property name="Price" value=".70"/>
+      <property name="Purchase-URL" value="https://www.digikey.com/en/products/detail/keystone-electronics/2460/280629"/>
+      <property name="SnapEDA_Link" value="https://www.digikey.com/en/models/280629"/>
+      <property name="Description" value="Battery Holder for the AA batteries to power the board."/>
+      <property name="MANUFACTURER" value="Keystone Electronics"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="13.89mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rps_v4.0.0.kicad_sch"/>
+      <property name="ki_description" value="Multiple-cell battery"/>
+      <property name="ki_keywords" value="batt voltage-source cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9969520c-db73-4be7-823c-d0f10186ab22</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>1UF</value>
+      <footprint>rps_v4.0_footprint_library:0603</footprint>
+      <libsource lib="rps_v4.0.0_symbols_library" part="Capacitor-0603" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rps_v4.0.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7854870-54b1-463c-8f34-ea2141d603e5</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1UF</value>
+      <footprint>rps_v4.0_footprint_library:0603</footprint>
+      <libsource lib="rps_v4.0.0_symbols_library" part="Capacitor-0603" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rps_v4.0.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9035fb3f-1b18-4851-9e08-10138e736229</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1UF</value>
+      <footprint>rps_v4.0_footprint_library:0603</footprint>
+      <libsource lib="rps_v4.0.0_symbols_library" part="Capacitor-0603" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rps_v4.0.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57bf5e2d-2e20-4182-8679-a6399462085b</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>RED</value>
+      <footprint>rps_v4.0_footprint_library:LED-0805</footprint>
+      <datasheet>https://dammedia.osram.info/media/resource/hires/osram-dam-5178068/LS%20R976_EN.pdf</datasheet>
+      <fields>
+        <field name="Price">.063</field>
+        <field name="Purchase-URL">https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LS-R976-NR-1/1227987</field>
+        <field name="SnapEDA_Link">https://www.digikey.com/en/models/1227987</field>
+      </fields>
+      <libsource lib="rps_v4.0.0_symbols_library" part="LED-0805" description="Light emitting diode, small symbol"/>
+      <property name="Price" value=".063"/>
+      <property name="Purchase-URL" value="https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LS-R976-NR-1/1227987"/>
+      <property name="SnapEDA_Link" value="https://www.digikey.com/en/models/1227987"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rps_v4.0.0.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, small symbol"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a41bc4e-4cf2-439f-acdb-5a81f0b81d4c</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>BLUE</value>
+      <footprint>rps_v4.0_footprint_library:LED-0805</footprint>
+      <datasheet>https://optoelectronics.liteon.com/upload/download/DS22-2000-233/LTST-C171TBKT(0630).pdf</datasheet>
+      <fields>
+        <field name="Price">.11</field>
+        <field name="Purchase-URL">https://www.digikey.com/en/products/detail/liteon/LTST-C171TBKT/388528</field>
+        <field name="SnapEDA_Link">https://www.digikey.com/en/models/388528</field>
+      </fields>
+      <libsource lib="" part="LED-0805_1" description="Light emitting diode, small symbol"/>
+      <property name="Price" value=".11"/>
+      <property name="Purchase-URL" value="https://www.digikey.com/en/products/detail/liteon/LTST-C171TBKT/388528"/>
+      <property name="SnapEDA_Link" value="https://www.digikey.com/en/models/388528"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rps_v4.0.0.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, small symbol"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>718b378d-44a0-4af9-acb3-12d80d9068cd</tstamps>
+    </comp>
+    <comp ref="FID1">
+      <value>Fiducial</value>
+      <footprint>rps_v4.0_footprint_library:Fiducial_0.75mm_Mask2.25mm</footprint>
+      <libsource lib="rps_v4.0.0_symbols_library" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rps_v4.0.0.kicad_sch"/>
+      <property name="ki_description" value="Fiducial Marker"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd9e4a1d-ce6f-4ce3-8707-ef13b1cb4175</tstamps>
+    </comp>
+    <comp ref="FID2">
+      <value>Fiducial</value>
+      <footprint>rps_v4.0_footprint_library:Fiducial_0.75mm_Mask2.25mm</footprint>
+      <libsource lib="rps_v4.0.0_symbols_library" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rps_v4.0.0.kicad_sch"/>
+      <property name="ki_description" value="Fiducial Marker"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17f6e29b-6144-4ebe-826a-6b0302b1ff69</tstamps>
+    </comp>
+    <comp ref="FID3">
+      <value>Fiducial</value>
+      <footprint>rps_v4.0_footprint_library:Fiducial_0.75mm_Mask2.25mm</footprint>
+      <libsource lib="rps_v4.0.0_symbols_library" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rps_v4.0.0.kicad_sch"/>
+      <property name="ki_description" value="Fiducial Marker"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a222883-1bcb-4969-b3e3-d1b29a5e90e5</tstamps>
+    </comp>
+    <comp ref="FID4">
+      <value>Fiducial</value>
+      <footprint>rps_v4.0_footprint_library:Fiducial_0.75mm_Mask2.25mm</footprint>
+      <libsource lib="rps_v4.0.0_symbols_library" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rps_v4.0.0.kicad_sch"/>
+      <property name="ki_description" value="Fiducial Marker"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa02c494-11a3-4cd6-9b61-055dc97de4cd</tstamps>
+    </comp>
+    <comp ref="FID5">
+      <value>Fiducial</value>
+      <footprint>rps_v4.0_footprint_library:Fiducial_0.75mm_Mask2.25mm</footprint>
+      <libsource lib="rps_v4.0.0_symbols_library" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rps_v4.0.0.kicad_sch"/>
+      <property name="ki_description" value="Fiducial Marker"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07ff33c9-e1a8-4058-af38-32c70da39cd0</tstamps>
+    </comp>
+    <comp ref="FID6">
+      <value>Fiducial</value>
+      <footprint>rps_v4.0_footprint_library:Fiducial_0.75mm_Mask2.25mm</footprint>
+      <libsource lib="rps_v4.0.0_symbols_library" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rps_v4.0.0.kicad_sch"/>
+      <property name="ki_description" value="Fiducial Marker"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ed96020-b724-4156-80c7-525480f68bd4</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>SAO</value>
+      <footprint>rps_v4.0_footprint_library:SAO_CONN6_D03-ST-BK_SUL</footprint>
+      <datasheet>https://s3.amazonaws.com/catalogspreads-pdf/PAGE123%20.100%20SFH11%20SERIES%20FEMALE%20HDR%20ST%20RA.pdf</datasheet>
+      <fields>
+        <field name="Price">.42</field>
+        <field name="Purchase-URL">https://www.digikey.com/en/products/detail/sullins-connector-solutions/SFH11-NBPC-D03-ST-BK/4558818</field>
+        <field name="SnapEDA_Link">https://www.digikey.com/en/models/4558878</field>
+      </fields>
+      <libsource lib="rps_v4.0.0_symbols_library" part="CONN_02x03_SFH11-PBPC-D03-ST-BK" description=""/>
+      <property name="Price" value=".42"/>
+      <property name="Purchase-URL" value="https://www.digikey.com/en/products/detail/sullins-connector-solutions/SFH11-NBPC-D03-ST-BK/4558818"/>
+      <property name="SnapEDA_Link" value="https://www.digikey.com/en/models/4558878"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rps_v4.0.0.kicad_sch"/>
+      <property name="ki_keywords" value="SFH11-PBPC-D03-ST-BK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b149c16-36d4-4509-a8c9-abb3cf26d6fb</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>rps_v4.0_footprint_library:R-0805</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Price">.005</field>
+        <field name="Purchase-URL">https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT10K0/1757762</field>
+        <field name="SnapEDA_Link">https://www.digikey.com/en/models/1757762</field>
+      </fields>
+      <libsource lib="rps_v4.0.0_symbols_library" part="R_0805" description="Resistor"/>
+      <property name="Price" value=".005"/>
+      <property name="Purchase-URL" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT10K0/1757762"/>
+      <property name="SnapEDA_Link" value="https://www.digikey.com/en/models/1757762"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rps_v4.0.0.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f7a109f-80d1-4bb9-bca1-a0bf6161b99a</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>rps_v4.0_footprint_library:R-0805</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Price">.005</field>
+        <field name="Purchase-URL">https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT10K0/1757762</field>
+        <field name="SnapEDA_Link">https://www.digikey.com/en/models/1757762</field>
+      </fields>
+      <libsource lib="rps_v4.0.0_symbols_library" part="R_0805" description="Resistor"/>
+      <property name="Price" value=".005"/>
+      <property name="Purchase-URL" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT10K0/1757762"/>
+      <property name="SnapEDA_Link" value="https://www.digikey.com/en/models/1757762"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rps_v4.0.0.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7752aa3d-7fbc-4b98-b2b0-4377502be106</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>rps_v4.0_footprint_library:R-0805</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Price">.005</field>
+        <field name="Purchase-URL">https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT10K0/1757762</field>
+        <field name="SnapEDA_Link">https://www.digikey.com/en/models/1757762</field>
+      </fields>
+      <libsource lib="rps_v4.0.0_symbols_library" part="R_0805" description="Resistor"/>
+      <property name="Price" value=".005"/>
+      <property name="Purchase-URL" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT10K0/1757762"/>
+      <property name="SnapEDA_Link" value="https://www.digikey.com/en/models/1757762"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rps_v4.0.0.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88953041-8b4e-46b0-9afc-67965edaea8e</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>PTS815 SJM 250 SMTR LFS</value>
+      <footprint>rps_v4.0_footprint_library:PTS815_button</footprint>
+      <datasheet>https://www.ckswitches.com/media/2728/pts815.pdf</datasheet>
+      <fields>
+        <field name="MANUFACTURER">C&amp;K</field>
+        <field name="Price">.12</field>
+        <field name="Purchase-URL">https://www.digikey.com/en/products/detail/c-k/PTS815-SJM-250-SMTR-LFS/9947846</field>
+        <field name="SnapEDA_Link">https://www.digikey.com/en/models/9947846</field>
+      </fields>
+      <libsource lib="" part="PTS815_SJM_250_SMTR_LFS_1" description=""/>
+      <property name="Price" value=".12"/>
+      <property name="Purchase-URL" value="https://www.digikey.com/en/products/detail/c-k/PTS815-SJM-250-SMTR-LFS/9947846"/>
+      <property name="SnapEDA_Link" value="https://www.digikey.com/en/models/9947846"/>
+      <property name="Description" value=""/>
+      <property name="MANUFACTURER" value="C&amp;K"/>
+      <property name="Package" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rps_v4.0.0.kicad_sch"/>
+      <property name="ki_keywords" value="PTS815 SJM 250 SMTR LFS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d78f5e8-4eaa-434c-b648-47d46144230e</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>PTS815 SJM 250 SMTR LFS</value>
+      <footprint>rps_v4.0_footprint_library:PTS815_button</footprint>
+      <datasheet>https://www.ckswitches.com/media/2728/pts815.pdf</datasheet>
+      <fields>
+        <field name="MANUFACTURER">C&amp;K</field>
+        <field name="Price">.12</field>
+        <field name="Purchase-URL">https://www.digikey.com/en/products/detail/c-k/PTS815-SJM-250-SMTR-LFS/9947846</field>
+        <field name="SnapEDA_Link">https://www.digikey.com/en/models/9947846</field>
+      </fields>
+      <libsource lib="" part="PTS815_SJM_250_SMTR_LFS_2" description=""/>
+      <property name="Price" value=".12"/>
+      <property name="Purchase-URL" value="https://www.digikey.com/en/products/detail/c-k/PTS815-SJM-250-SMTR-LFS/9947846"/>
+      <property name="SnapEDA_Link" value="https://www.digikey.com/en/models/9947846"/>
+      <property name="Description" value=""/>
+      <property name="MANUFACTURER" value="C&amp;K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rps_v4.0.0.kicad_sch"/>
+      <property name="ki_keywords" value="PTS815 SJM 250 SMTR LFS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6c0a437-d638-4733-be7a-77ff251c5058</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>PTS815 SJM 250 SMTR LFS</value>
+      <footprint>rps_v4.0_footprint_library:PTS815_button</footprint>
+      <datasheet>https://www.ckswitches.com/media/2728/pts815.pdf</datasheet>
+      <fields>
+        <field name="MANUFACTURER">C&amp;K</field>
+        <field name="Price">.12</field>
+        <field name="Purchase-URL">https://www.digikey.com/en/products/detail/c-k/PTS815-SJM-250-SMTR-LFS/9947846</field>
+        <field name="SnapEDA_Link">https://www.digikey.com/en/models/9947846</field>
+      </fields>
+      <libsource lib="" part="PTS815_SJM_250_SMTR_LFS_3" description=""/>
+      <property name="Price" value=".12"/>
+      <property name="Purchase-URL" value="https://www.digikey.com/en/products/detail/c-k/PTS815-SJM-250-SMTR-LFS/9947846"/>
+      <property name="SnapEDA_Link" value="https://www.digikey.com/en/models/9947846"/>
+      <property name="Description" value=""/>
+      <property name="MANUFACTURER" value="C&amp;K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rps_v4.0.0.kicad_sch"/>
+      <property name="ki_keywords" value="PTS815 SJM 250 SMTR LFS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a71260e4-7da1-45ab-985f-4169bcb1acba</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>PTS815 SJM 250 SMTR LFS</value>
+      <footprint>rps_v4.0_footprint_library:PTS815_button</footprint>
+      <datasheet>https://www.ckswitches.com/media/2728/pts815.pdf</datasheet>
+      <fields>
+        <field name="MANUFACTURER">C&amp;K</field>
+        <field name="Price">.12</field>
+        <field name="Purchase-URL">https://www.digikey.com/en/products/detail/c-k/PTS815-SJM-250-SMTR-LFS/9947846</field>
+        <field name="SnapEDA_Link">https://www.digikey.com/en/models/9947846</field>
+      </fields>
+      <libsource lib="rps_v4.0.0_symbols_library" part="PTS815_SJM_250_SMTR_LFS" description=""/>
+      <property name="Price" value=".12"/>
+      <property name="Purchase-URL" value="https://www.digikey.com/en/products/detail/c-k/PTS815-SJM-250-SMTR-LFS/9947846"/>
+      <property name="SnapEDA_Link" value="https://www.digikey.com/en/models/9947846"/>
+      <property name="Description" value=""/>
+      <property name="MANUFACTURER" value="C&amp;K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rps_v4.0.0.kicad_sch"/>
+      <property name="ki_keywords" value="PTS815 SJM 250 SMTR LFS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>273da90a-2cf6-4260-9df9-f5b151f1272f</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>JS202011SCQN</value>
+      <footprint>rps_v4.0_footprint_library:ON_OFF_SW_JS202011SCQN</footprint>
+      <datasheet>https://www.ckswitches.com/media/1422/js.pdf</datasheet>
+      <fields>
+        <field name="Price">.47</field>
+        <field name="Purchase-URL">https://www.digikey.com/en/products/detail/c-k/JS202011SCQN/2094299</field>
+        <field name="SnapEDA_Link">https://www.digikey.com/en/models/2094299</field>
+      </fields>
+      <libsource lib="rps_v4.0.0_symbols_library" part="ON_OFF_6PIN_JS202011SCQN" description=""/>
+      <property name="Price" value=".47"/>
+      <property name="Purchase-URL" value="https://www.digikey.com/en/products/detail/c-k/JS202011SCQN/2094299"/>
+      <property name="SnapEDA_Link" value="https://www.digikey.com/en/models/2094299"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rps_v4.0.0.kicad_sch"/>
+      <property name="ki_keywords" value="JS202011SCQN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16e9d41a-7a8d-46ae-b06f-d5a378bb0871</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>rps_v4.0_footprint_library:SolderWirePad_1x01_SMD_1x2mm</footprint>
+      <libsource lib="rps_v4.0.0_symbols_library" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rps_v4.0.0.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>730c4732-58b0-4a2b-b862-388413f58fe8</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ESP32-C3-MINI-1-N4</value>
+      <footprint>rps_v4.0_footprint_library:ESP32-C3-MINI-1-N4</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf</datasheet>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/ESP32-C3-MINI-1-N4/Espressif+Systems/view-part/?ref=eda</field>
+        <field name="Description">
+Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.412GHz ~ 2.484GHz PCB Trace Surface Mount
+</field>
+        <field name="MANUFACTURER">Espressif Systems</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.55mm</field>
+        <field name="MF">Espressif Systems</field>
+        <field name="MP">ESP32-C3-MINI-1-N4</field>
+        <field name="PARTREV">v1.0</field>
+        <field name="Package">SMD-53 Espressif Systems</field>
+        <field name="Price">1.80</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=5656579&amp;manufacturer=Espressif Systems&amp;part_name=ESP32-C3-MINI-1-N4&amp;search_term=esp32-c3-mini</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/ESP32-C3-MINI-1-N4/Espressif+Systems/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="rps_v4.0.0_symbols_library" part="ESP32-C3-MINI-1-N4" description=""/>
+      <property name="MF" value="Espressif Systems"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="2.55mm"/>
+      <property name="Package" value="SMD-53 Espressif Systems"/>
+      <property name="Price" value="1.80"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/ESP32-C3-MINI-1-N4/Espressif+Systems/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="v1.0"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/ESP32-C3-MINI-1-N4/Espressif+Systems/view-part/?ref=snap"/>
+      <property name="MP" value="ESP32-C3-MINI-1-N4"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=5656579&amp;manufacturer=Espressif Systems&amp;part_name=ESP32-C3-MINI-1-N4&amp;search_term=esp32-c3-mini"/>
+      <property name="Description" value="&#xA;Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.412GHz ~ 2.484GHz PCB Trace Surface Mount&#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Espressif Systems"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rps_v4.0.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6de55fd0-3ef5-40b7-8bc9-3b3be75c5d1c</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>MCP1700T-3302E/MB</value>
+      <footprint>rps_v4.0_footprint_library:MCP1700_LDO</footprint>
+      <datasheet>MCP1700T-3302E/MBhttps://ww1.microchip.com/downloads/en/DeviceDoc/MCP1700-Data-Sheet-20001826F.pdf</datasheet>
+      <libsource lib="rps_v4.0.0_symbols_library" part="MCP1700T-3302E_MB" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rps_v4.0.0.kicad_sch"/>
+      <property name="ki_keywords" value="MCP1700T-3302E/MB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7688539-eccb-482d-a8ec-92590ab5020b</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1UF</value>
+      <footprint>rps_v4.0_footprint_library:0603</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Price">.006</field>
+        <field name="Purchase-URL">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593</field>
+        <field name="SnapEDA_Link">https://www.digikey.com/en/models/3887593</field>
+      </fields>
+      <libsource lib="rps_v4.0.0_symbols_library" part="Capacitor-0603" description=""/>
+      <property name="Price" value=".006"/>
+      <property name="Purchase-URL" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
+      <property name="SnapEDA_Link" value="https://www.digikey.com/en/models/3887593"/>
+      <property name="Sheetname" value="S14S_DISPLAY"/>
+      <property name="Sheetfile" value="LED_Display.kicad_sch"/>
+      <sheetpath names="/S14S_DISPLAY/" tstamps="/0288087e-9b7d-48dc-b2fd-ed719f0d17a1/"/>
+      <tstamps>8892bce6-7fd1-48d1-8232-815f30f363c0</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10UF</value>
+      <footprint>rps_v4.0_footprint_library:0603</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10A106MQ8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Price">.030</field>
+        <field name="Purchase-URL">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106MQ8NNNC/3886777</field>
+        <field name="SnapEDA_Link">https://www.digikey.com/en/models/3886777</field>
+      </fields>
+      <libsource lib="rps_v4.0.0_symbols_library" part="Capacitor-0603" description=""/>
+      <property name="Price" value=".030"/>
+      <property name="Purchase-URL" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106MQ8NNNC/3886777"/>
+      <property name="SnapEDA_Link" value="https://www.digikey.com/en/models/3886777"/>
+      <property name="Sheetname" value="S14S_DISPLAY"/>
+      <property name="Sheetfile" value="LED_Display.kicad_sch"/>
+      <sheetpath names="/S14S_DISPLAY/" tstamps="/0288087e-9b7d-48dc-b2fd-ed719f0d17a1/"/>
+      <tstamps>edcb5d17-9668-441f-86d5-8d8998655183</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>HT16K33</value>
+      <footprint>rps_v4.0_footprint_library:HT16K33</footprint>
+      <datasheet>https://www.digikey.com/en/htmldatasheets/production/2070902/0/0/1/ht16k33</datasheet>
+      <fields>
+        <field name="PROD_ID">IC-14891</field>
+        <field name="Price">.61</field>
+      </fields>
+      <libsource lib="rps_v4.0.0_symbols_library" part="HT16K33" description=""/>
+      <property name="PROD_ID" value="IC-14891"/>
+      <property name="Price" value=".61"/>
+      <property name="Sheetname" value="S14S_DISPLAY"/>
+      <property name="Sheetfile" value="LED_Display.kicad_sch"/>
+      <sheetpath names="/S14S_DISPLAY/" tstamps="/0288087e-9b7d-48dc-b2fd-ed719f0d17a1/"/>
+      <tstamps>d9813813-bf0f-47ab-85c4-30127e06e698</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>2K2</value>
+      <footprint>rps_v4.0_footprint_library:0603</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_15.pdf</datasheet>
+      <fields>
+        <field name="Price">.046</field>
+        <field name="Purchase-URL">https://www.digikey.com/en/products/detail/yageo/RT0603BRD072K2L/1072430</field>
+        <field name="SnapEDA_Link">https://www.digikey.com/en/models/1072430</field>
+      </fields>
+      <libsource lib="rps_v4.0.0_symbols_library" part="R-0603" description=""/>
+      <property name="Price" value=".046"/>
+      <property name="Purchase-URL" value="https://www.digikey.com/en/products/detail/yageo/RT0603BRD072K2L/1072430"/>
+      <property name="SnapEDA_Link" value="https://www.digikey.com/en/models/1072430"/>
+      <property name="Sheetname" value="S14S_DISPLAY"/>
+      <property name="Sheetfile" value="LED_Display.kicad_sch"/>
+      <sheetpath names="/S14S_DISPLAY/" tstamps="/0288087e-9b7d-48dc-b2fd-ed719f0d17a1/"/>
+      <tstamps>a78a19cd-e86c-4b94-9377-c97a070cadb2</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>2K2</value>
+      <footprint>rps_v4.0_footprint_library:0603</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_15.pdf</datasheet>
+      <fields>
+        <field name="Price">.046</field>
+        <field name="Purchase-URL">https://www.digikey.com/en/products/detail/yageo/RT0603BRD072K2L/1072430</field>
+        <field name="SnapEDA_Link">https://www.digikey.com/en/models/1072430</field>
+      </fields>
+      <libsource lib="rps_v4.0.0_symbols_library" part="R-0603" description=""/>
+      <property name="Price" value=".046"/>
+      <property name="Purchase-URL" value="https://www.digikey.com/en/products/detail/yageo/RT0603BRD072K2L/1072430"/>
+      <property name="SnapEDA_Link" value="https://www.digikey.com/en/models/1072430"/>
+      <property name="Sheetname" value="S14S_DISPLAY"/>
+      <property name="Sheetfile" value="LED_Display.kicad_sch"/>
+      <sheetpath names="/S14S_DISPLAY/" tstamps="/0288087e-9b7d-48dc-b2fd-ed719f0d17a1/"/>
+      <tstamps>86531486-f991-450b-9093-f8c3c876d2ea</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SILSMART_DISPLAY</value>
+      <footprint>rps_v4.0_footprint_library:SILSMART_DISPLAY</footprint>
+      <datasheet>https://cdn.sparkfun.com/assets/a/9/d/a/4/JMF-4473BS4-059-P6.8.pdf</datasheet>
+      <fields>
+        <field name="PROD_ID">COMP-14892</field>
+        <field name="Price">2.50</field>
+        <field name="Purchase-URL">https://www.digikey.com/en/products/detail/sparkfun-electronics/COM-21217/16892550?s=N4IgTCBcDaIMYHsC2BaMBGDB2EBdAvkA</field>
+      </fields>
+      <libsource lib="rps_v4.0.0_symbols_library" part="SILSMART_DISPLAY" description=""/>
+      <property name="PROD_ID" value="COMP-14892"/>
+      <property name="Price" value="2.50"/>
+      <property name="Purchase-URL" value="https://www.digikey.com/en/products/detail/sparkfun-electronics/COM-21217/16892550?s=N4IgTCBcDaIMYHsC2BaMBGDB2EBdAvkA"/>
+      <property name="Sheetname" value="S14S_DISPLAY"/>
+      <property name="Sheetfile" value="LED_Display.kicad_sch"/>
+      <sheetpath names="/S14S_DISPLAY/" tstamps="/0288087e-9b7d-48dc-b2fd-ed719f0d17a1/"/>
+      <tstamps>efda335b-d2a7-41eb-97ab-eade4739de35</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="LED-0805_1">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D2</field>
+        <field name="Footprint">rps_v4.0_footprint_library:LED-0805</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="PTS815_SJM_250_SMTR_LFS_1">
+      <docs>https://www.ckswitches.com/media/2728/pts815.pdf</docs>
+      <footprints>
+        <fp>SW4_PTS815</fp>
+        <fp>SJM</fp>
+        <fp>250</fp>
+        <fp>SMTR</fp>
+        <fp>LFS_CNK</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">PTS815 SJM 250 SMTR LFS</field>
+        <field name="Footprint">rps_v4.0_footprint_library:PTS815_button</field>
+        <field name="Datasheet">https://www.ckswitches.com/media/2728/pts815.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="PTS815_SJM_250_SMTR_LFS_2">
+      <docs>https://www.ckswitches.com/media/2728/pts815.pdf</docs>
+      <footprints>
+        <fp>SW4_PTS815</fp>
+        <fp>SJM</fp>
+        <fp>250</fp>
+        <fp>SMTR</fp>
+        <fp>LFS_CNK</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">PTS815 SJM 250 SMTR LFS</field>
+        <field name="Footprint">rps_v4.0_footprint_library:PTS815_button</field>
+        <field name="Datasheet">https://www.ckswitches.com/media/2728/pts815.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="PTS815_SJM_250_SMTR_LFS_3">
+      <docs>https://www.ckswitches.com/media/2728/pts815.pdf</docs>
+      <footprints>
+        <fp>SW4_PTS815</fp>
+        <fp>SJM</fp>
+        <fp>250</fp>
+        <fp>SMTR</fp>
+        <fp>LFS_CNK</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">PTS815 SJM 250 SMTR LFS</field>
+        <field name="Footprint">rps_v4.0_footprint_library:PTS815_button</field>
+        <field name="Datasheet">https://www.ckswitches.com/media/2728/pts815.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rps_v4.0.0_symbols_library" part="2460_AA_Battery_Holder">
+      <description>Multiple-cell battery</description>
+      <docs>https://www.keyelco.com/userAssets/file/M65p28.pdf</docs>
+      <fields>
+        <field name="Reference">BT301</field>
+        <field name="Value">2460_AA_Battery_Holder</field>
+        <field name="Footprint">rps_v4.0_footprint_library:BatteryHolder_Keystone_2460_1xAANO_HOLES</field>
+        <field name="Datasheet">https://www.keyelco.com/userAssets/file/M65p28.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rps_v4.0.0_symbols_library" part="CONN_02x03_SFH11-PBPC-D03-ST-BK">
+      <docs>https://s3.amazonaws.com/catalogspreads-pdf/PAGE123%20.100%20SFH11%20SERIES%20FEMALE%20HDR%20ST%20RA.pdf</docs>
+      <footprints>
+        <fp>CONN6_D03-ST-BK_SUL</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">Conn_02x03_Counter_Clockwise_MountingPin</field>
+        <field name="Footprint">rps_v4.0_footprint_library:SAO_CONN6_D03-ST-BK_SUL</field>
+        <field name="Datasheet">https://s3.amazonaws.com/catalogspreads-pdf/PAGE123%20.100%20SFH11%20SERIES%20FEMALE%20HDR%20ST%20RA.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="power_in"/>
+        <pin num="2" name="2" type="power_in"/>
+        <pin num="3" name="3" type="bidirectional"/>
+        <pin num="4" name="4" type="bidirectional"/>
+        <pin num="5" name="5" type="bidirectional"/>
+        <pin num="6" name="6" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="rps_v4.0.0_symbols_library" part="Capacitor-0603">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">~</field>
+        <field name="Footprint">rps_v4.0_footprint_library:0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rps_v4.0.0_symbols_library" part="ESP32-C3-MINI-1-N4">
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-C3-MINI-1-N4</field>
+        <field name="Footprint">rps_v4.0_footprint_library:ESP32-C3-MINI-1-N4</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf</field>
+        <field name="MF">Espressif Systems</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.55mm</field>
+        <field name="Package">SMD-53 Espressif Systems</field>
+        <field name="Price">1.80</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/ESP32-C3-MINI-1-N4/Espressif+Systems/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">v1.0</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/ESP32-C3-MINI-1-N4/Espressif+Systems/view-part/?ref=snap</field>
+        <field name="MP">ESP32-C3-MINI-1-N4</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=5656579&amp;manufacturer=Espressif Systems&amp;part_name=ESP32-C3-MINI-1-N4&amp;search_term=esp32-c3-mini</field>
+        <field name="Description">
+Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.412GHz ~ 2.484GHz PCB Trace Surface Mount
+</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Espressif Systems</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="3V3" type="power_in"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="IO2/GPIO2" type="bidirectional"/>
+        <pin num="6" name="IO3/GPIO3" type="bidirectional"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="EN" type="input"/>
+        <pin num="9" name="NC" type="no_connect"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="IO0/GPIO0" type="bidirectional"/>
+        <pin num="13" name="IO1/GPIO1" type="bidirectional"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="NC" type="no_connect"/>
+        <pin num="16" name="IO10/GPIO10" type="bidirectional"/>
+        <pin num="17" name="NC" type="no_connect"/>
+        <pin num="18" name="IO4/GPIO4" type="bidirectional"/>
+        <pin num="19" name="IO5/GPIO5" type="bidirectional"/>
+        <pin num="20" name="IO6/GPIO6" type="bidirectional"/>
+        <pin num="21" name="IO7/GPIO7" type="bidirectional"/>
+        <pin num="22" name="IO8/GPIO8" type="bidirectional"/>
+        <pin num="23" name="IO9/GPIO9" type="bidirectional"/>
+        <pin num="24" name="NC" type="no_connect"/>
+        <pin num="25" name="NC" type="no_connect"/>
+        <pin num="26" name="USB_D-/IO18" type="bidirectional"/>
+        <pin num="27" name="USB_D+/IO19" type="bidirectional"/>
+        <pin num="28" name="NC" type="no_connect"/>
+        <pin num="29" name="NC" type="no_connect"/>
+        <pin num="30" name="RXD0" type="bidirectional"/>
+        <pin num="31" name="TXD0" type="bidirectional"/>
+        <pin num="32" name="NC" type="no_connect"/>
+        <pin num="33" name="NC" type="no_connect"/>
+        <pin num="34" name="NC" type="no_connect"/>
+        <pin num="35" name="NC" type="no_connect"/>
+        <pin num="36" name="GND" type="power_in"/>
+        <pin num="37" name="GND" type="power_in"/>
+        <pin num="38" name="GND" type="power_in"/>
+        <pin num="39" name="GND" type="power_in"/>
+        <pin num="40" name="GND" type="power_in"/>
+        <pin num="41" name="GND" type="power_in"/>
+        <pin num="42" name="GND" type="power_in"/>
+        <pin num="43" name="GND" type="power_in"/>
+        <pin num="44" name="GND" type="power_in"/>
+        <pin num="45" name="GND" type="power_in"/>
+        <pin num="46" name="GND" type="power_in"/>
+        <pin num="47" name="GND" type="power_in"/>
+        <pin num="48" name="GND" type="power_in"/>
+        <pin num="49_1" name="GND" type="power_in"/>
+        <pin num="49_2" name="GND" type="power_in"/>
+        <pin num="49_3" name="GND" type="power_in"/>
+        <pin num="49_4" name="GND" type="power_in"/>
+        <pin num="49_5" name="GND" type="power_in"/>
+        <pin num="49_6" name="GND" type="power_in"/>
+        <pin num="49_7" name="GND" type="power_in"/>
+        <pin num="49_8" name="GND" type="power_in"/>
+        <pin num="49_9" name="GND" type="power_in"/>
+        <pin num="50" name="GND" type="power_in"/>
+        <pin num="51" name="GND" type="power_in"/>
+        <pin num="52" name="GND" type="power_in"/>
+        <pin num="53" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="rps_v4.0.0_symbols_library" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="rps_v4.0.0_symbols_library" part="HT16K33">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Footprint">rps_v4.0_footprint_library:HT16K33</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS" type="power_in"/>
+        <pin num="2" name="COM0/AD" type="bidirectional"/>
+        <pin num="3" name="COM1/KS0" type="bidirectional"/>
+        <pin num="4" name="COM2/KS1" type="bidirectional"/>
+        <pin num="5" name="COM3/KS2" type="bidirectional"/>
+        <pin num="6" name="COM4" type="bidirectional"/>
+        <pin num="7" name="COM5" type="bidirectional"/>
+        <pin num="8" name="COM6" type="bidirectional"/>
+        <pin num="9" name="COM7" type="bidirectional"/>
+        <pin num="10" name="ROW11/K10/INT" type="bidirectional"/>
+        <pin num="11" name="ROW10/K9" type="bidirectional"/>
+        <pin num="12" name="ROW9/K8" type="bidirectional"/>
+        <pin num="13" name="ROW8/K7" type="bidirectional"/>
+        <pin num="14" name="ROW7/K6" type="bidirectional"/>
+        <pin num="15" name="ROW6/K5" type="bidirectional"/>
+        <pin num="16" name="ROW5/K4" type="bidirectional"/>
+        <pin num="17" name="ROW4/K3" type="bidirectional"/>
+        <pin num="18" name="ROW3/K2" type="bidirectional"/>
+        <pin num="19" name="ROW2/K1" type="bidirectional"/>
+        <pin num="20" name="ROW1/A0" type="bidirectional"/>
+        <pin num="21" name="ROW0/A1" type="bidirectional"/>
+        <pin num="22" name="SCL" type="bidirectional"/>
+        <pin num="23" name="SDA" type="bidirectional"/>
+        <pin num="24" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="rps_v4.0.0_symbols_library" part="JUMPER-SMT_3_2-NC_TRACE_SILK">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Footprint">rps_v4.0_footprint_library:SMT-JUMPER_3_2-NC_TRACE_SILK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rps_v4.0.0_symbols_library" part="LED-0805">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D2</field>
+        <field name="Footprint">rps_v4.0_footprint_library:LED-0805</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rps_v4.0.0_symbols_library" part="MCP1700T-3302E_MB">
+      <docs>MCP1700T-3302E/MBhttps://ww1.microchip.com/downloads/en/DeviceDoc/MCP1700-Data-Sheet-20001826F.pdf</docs>
+      <footprints>
+        <fp>SOT-89_3MC_MCH</fp>
+        <fp>SOT-89_3MC_MCH-M</fp>
+        <fp>SOT-89_3MC_MCH-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1700T-3302E/MB</field>
+        <field name="Footprint">rps_v4.0_footprint_library:MCP1700_LDO</field>
+        <field name="Datasheet">MCP1700T-3302E/MBhttps://ww1.microchip.com/downloads/en/DeviceDoc/MCP1700-Data-Sheet-20001826F.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="rps_v4.0.0_symbols_library" part="ON_OFF_6PIN_JS202011SCQN">
+      <docs>https://www.ckswitches.com/media/1422/js.pdf</docs>
+      <footprints>
+        <fp>SW_JS202011SCQN</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">ON_OFF_6PIN_JS202011SCQN</field>
+        <field name="Footprint">rps_v4.0_footprint_library:ON_OFF_SW_JS202011SCQN</field>
+        <field name="Datasheet">https://www.ckswitches.com/media/1422/js.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="bidirectional"/>
+        <pin num="5" name="5" type="power_in"/>
+        <pin num="6" name="6" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="rps_v4.0.0_symbols_library" part="PTS815_SJM_250_SMTR_LFS">
+      <docs>https://www.ckswitches.com/media/2728/pts815.pdf</docs>
+      <footprints>
+        <fp>SW4_PTS815</fp>
+        <fp>SJM</fp>
+        <fp>250</fp>
+        <fp>SMTR</fp>
+        <fp>LFS_CNK</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">PTS815 SJM 250 SMTR LFS</field>
+        <field name="Footprint">rps_v4.0_footprint_library:PTS815_button</field>
+        <field name="Datasheet">https://www.ckswitches.com/media/2728/pts815.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rps_v4.0.0_symbols_library" part="R-0603">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">~</field>
+        <field name="Footprint">rps_v4.0_footprint_library:0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rps_v4.0.0_symbols_library" part="R_0805">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R6</field>
+        <field name="Footprint">rps_v4.0_footprint_library:R-0805</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rps_v4.0.0_symbols_library" part="SILSMART_DISPLAY">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">rps_v4.0_footprint_library:SILSMART_DISPLAY</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DIG_1B" type="bidirectional"/>
+        <pin num="2" name="DIG_2B" type="bidirectional"/>
+        <pin num="3" name="COM_D" type="bidirectional"/>
+        <pin num="4" name="COM_C" type="bidirectional"/>
+        <pin num="5" name="COM_G1" type="bidirectional"/>
+        <pin num="6" name="COM_E" type="bidirectional"/>
+        <pin num="7" name="DIG_DP" type="bidirectional"/>
+        <pin num="8" name="DIG_4A" type="bidirectional"/>
+        <pin num="9" name="DIG_4B" type="bidirectional"/>
+        <pin num="10" name="DIG_3B" type="bidirectional"/>
+        <pin num="11" name="DIG_3A" type="bidirectional"/>
+        <pin num="12" name="COM_F" type="bidirectional"/>
+        <pin num="13" name="COM_B" type="bidirectional"/>
+        <pin num="14" name="COM_A" type="bidirectional"/>
+        <pin num="15" name="DIG_2A" type="bidirectional"/>
+        <pin num="16" name="DIG_1A" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="rps_v4.0.0_symbols_library" part="Tag-Connect">
+      <docs>SFH11-PBPC-D03-ST-BK</docs>
+      <footprints>
+        <fp>CONN6_D03-ST-BK_SUL</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Tag-Connect</field>
+        <field name="Footprint">rps_v4.0_footprint_library:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical</field>
+        <field name="Datasheet">SFH11-PBPC-D03-ST-BK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="power_in"/>
+        <pin num="2" name="2" type="power_in"/>
+        <pin num="3" name="3" type="bidirectional"/>
+        <pin num="4" name="4" type="bidirectional"/>
+        <pin num="5" name="5" type="bidirectional"/>
+        <pin num="6" name="6" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="rps_v4.0.0_symbols_library" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="rps_v4.0.0_symbols_library">
+      <uri>/home/chargen/badge_2024/kiCad/libraries/rps_v4.0_libraries/rps_v4.0.0_symbols_library.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="power_in"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="3V3" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="VOUT" pintype="power_out"/>
+    </net>
+    <net code="2" name="+4V5">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="IC2" pin="24" pinfunction="VDD" pintype="power_in"/>
+      <node ref="SW5" pin="5" pinfunction="5" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="3" name="/EN">
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="4" name="/IO0">
+      <node ref="J1" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="U1" pin="12" pinfunction="IO0/GPIO0" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/PAPER">
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="IO4/GPIO4" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/POWER_SWITCH">
+      <node ref="BT3" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="SW5" pin="4" pinfunction="4" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/ROCK">
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="IO3/GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/RX1">
+      <node ref="J1" pin="6" pinfunction="6" pintype="bidirectional"/>
+      <node ref="U1" pin="16" pinfunction="IO10/GPIO10" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/S14S_DISPLAY/COM_A">
+      <node ref="IC2" pin="2" pinfunction="COM0/AD" pintype="bidirectional"/>
+      <node ref="U2" pin="14" pinfunction="COM_A" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/S14S_DISPLAY/COM_B">
+      <node ref="IC2" pin="3" pinfunction="COM1/KS0" pintype="bidirectional"/>
+      <node ref="U2" pin="13" pinfunction="COM_B" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/S14S_DISPLAY/COM_C">
+      <node ref="IC2" pin="4" pinfunction="COM2/KS1" pintype="bidirectional"/>
+      <node ref="U2" pin="4" pinfunction="COM_C" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/S14S_DISPLAY/COM_D">
+      <node ref="IC2" pin="5" pinfunction="COM3/KS2" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="COM_D" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/S14S_DISPLAY/COM_E">
+      <node ref="IC2" pin="6" pinfunction="COM4" pintype="bidirectional"/>
+      <node ref="U2" pin="6" pinfunction="COM_E" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/S14S_DISPLAY/COM_F">
+      <node ref="IC2" pin="7" pinfunction="COM5" pintype="bidirectional"/>
+      <node ref="U2" pin="12" pinfunction="COM_F" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/S14S_DISPLAY/COM_G">
+      <node ref="IC2" pin="8" pinfunction="COM6" pintype="bidirectional"/>
+      <node ref="U2" pin="5" pinfunction="COM_G1" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/S14S_DISPLAY/DIG_1A">
+      <node ref="IC2" pin="21" pinfunction="ROW0/A1" pintype="bidirectional"/>
+      <node ref="U2" pin="16" pinfunction="DIG_1A" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/S14S_DISPLAY/DIG_1B">
+      <node ref="IC2" pin="17" pinfunction="ROW4/K3" pintype="bidirectional"/>
+      <node ref="U2" pin="1" pinfunction="DIG_1B" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/S14S_DISPLAY/DIG_2A">
+      <node ref="IC2" pin="20" pinfunction="ROW1/A0" pintype="bidirectional"/>
+      <node ref="U2" pin="15" pinfunction="DIG_2A" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/S14S_DISPLAY/DIG_2B">
+      <node ref="IC2" pin="16" pinfunction="ROW5/K4" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="DIG_2B" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/S14S_DISPLAY/DIG_3A">
+      <node ref="IC2" pin="19" pinfunction="ROW2/K1" pintype="bidirectional"/>
+      <node ref="U2" pin="11" pinfunction="DIG_3A" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/S14S_DISPLAY/DIG_3B">
+      <node ref="IC2" pin="15" pinfunction="ROW6/K5" pintype="bidirectional"/>
+      <node ref="U2" pin="10" pinfunction="DIG_3B" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/S14S_DISPLAY/DIG_4A">
+      <node ref="IC2" pin="18" pinfunction="ROW3/K2" pintype="bidirectional"/>
+      <node ref="U2" pin="8" pinfunction="DIG_4A" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/S14S_DISPLAY/DIG_4B">
+      <node ref="IC2" pin="14" pinfunction="ROW7/K6" pintype="bidirectional"/>
+      <node ref="U2" pin="9" pinfunction="DIG_4B" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/S14S_DISPLAY/DIG_DP">
+      <node ref="IC2" pin="13" pinfunction="ROW8/K7" pintype="bidirectional"/>
+      <node ref="U2" pin="7" pinfunction="DIG_DP" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/SCAN">
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="IO5/GPIO5" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/SCISSORS">
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="IO2/GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/TX1">
+      <node ref="J1" pin="5" pinfunction="5" pintype="bidirectional"/>
+      <node ref="U1" pin="23" pinfunction="IO9/GPIO9" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/USB_D+">
+      <node ref="U1" pin="27" pinfunction="USB_D+/IO19" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/USB_D-">
+      <node ref="U1" pin="26" pinfunction="USB_D-/IO18" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="GND">
+      <node ref="BT2" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC2" pin="1" pinfunction="VSS" pintype="power_in"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="power_in"/>
+      <node ref="SW1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="11" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="14" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="36" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="37" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="38" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="39" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="40" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="41" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="42" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="43" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="44" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="45" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="46" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="47" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="48" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="49_1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="49_2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="49_3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="49_4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="49_5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="49_6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="49_7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="49_8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="49_9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="50" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="51" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="52" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="53" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="31" name="Net-(BT1-+)">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="BT3" pin="2" pinfunction="-" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(BT1--)">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="BT2" pin="1" pinfunction="+" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(I2C1-Pad1)">
+      <node ref="R7" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(I2C1-Pad3)">
+      <node ref="R6" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(U1-IO1{slash}GPIO1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="IO1/GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="Net-(U1-IO8{slash}GPIO8)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="IO8/GPIO8" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="SCL">
+      <node ref="IC2" pin="23" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="R6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="IO7/GPIO7" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="SDA">
+      <node ref="IC2" pin="22" pinfunction="SCL" pintype="bidirectional"/>
+      <node ref="R7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="IO6/GPIO6" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="unconnected-(IC2-COM7-Pad9)">
+      <node ref="IC2" pin="9" pinfunction="COM7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(IC2-ROW9{slash}K8-Pad12)">
+      <node ref="IC2" pin="12" pinfunction="ROW9/K8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(IC2-ROW10{slash}K9-Pad11)">
+      <node ref="IC2" pin="11" pinfunction="ROW10/K9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(IC2-ROW11{slash}K10{slash}INT-Pad10)">
+      <node ref="IC2" pin="10" pinfunction="ROW11/K10/INT" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(J1-Pad4)">
+      <node ref="J1" pin="4" pinfunction="4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(SW1-Pad2)">
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(SW1-Pad4)">
+      <node ref="SW1" pin="4" pinfunction="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(SW2-Pad2)">
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(SW2-Pad4)">
+      <node ref="SW2" pin="4" pinfunction="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(SW3-Pad2)">
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(SW3-Pad4)">
+      <node ref="SW3" pin="4" pinfunction="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(SW4-Pad2)">
+      <node ref="SW4" pin="2" pinfunction="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(SW4-Pad4)">
+      <node ref="SW4" pin="4" pinfunction="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(SW5-Pad1)">
+      <node ref="SW5" pin="1" pinfunction="1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(SW5-Pad2)">
+      <node ref="SW5" pin="2" pinfunction="2" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(SW5-Pad3)">
+      <node ref="SW5" pin="3" pinfunction="3" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(SW5-Pad6)">
+      <node ref="SW5" pin="6" pinfunction="6" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U1-NC-Pad4)">
+      <node ref="U1" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U1-NC-Pad7)">
+      <node ref="U1" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U1-NC-Pad9)">
+      <node ref="U1" pin="9" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U1-NC-Pad10)">
+      <node ref="U1" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U1-NC-Pad15)">
+      <node ref="U1" pin="15" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U1-NC-Pad17)">
+      <node ref="U1" pin="17" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U1-NC-Pad24)">
+      <node ref="U1" pin="24" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U1-NC-Pad25)">
+      <node ref="U1" pin="25" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U1-NC-Pad28)">
+      <node ref="U1" pin="28" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U1-NC-Pad29)">
+      <node ref="U1" pin="29" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U1-NC-Pad32)">
+      <node ref="U1" pin="32" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U1-NC-Pad33)">
+      <node ref="U1" pin="33" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U1-NC-Pad34)">
+      <node ref="U1" pin="34" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U1-NC-Pad35)">
+      <node ref="U1" pin="35" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U1-RXD0-Pad30)">
+      <node ref="U1" pin="30" pinfunction="RXD0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U1-TXD0-Pad31)">
+      <node ref="U1" pin="31" pinfunction="TXD0" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>

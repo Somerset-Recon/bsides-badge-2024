@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "rps_v4.0_footprint_library")(type "KiCad")(uri "${BSIDES_FOOTPRINTS}/rps_v4.0_footprint_library.pretty")(options "")(descr ""))
+)
