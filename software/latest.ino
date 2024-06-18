@@ -4,7 +4,7 @@
 #include <Wire.h>
 #include <SparkFun_Alphanumeric_Display.h>
 
-// IMPORTANT NOTE TICKER 2.x does not work
+// IMPORTANT NOTE TICKER 4.x does not work
 #include <Ticker.h>  // Manually replaced lib in esp32 lib folder --> ~/.arduino15/packages/esp32/hardware/esp32/2.0.14/libraries/Ticker
 #include <SPIFFS.h>
 
